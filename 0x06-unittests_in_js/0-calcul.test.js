@@ -10,7 +10,7 @@ describe('calculateNumber', () => {
 
     it("rounding of b", () => {
         assert.equal(calculateNumber(2, 15.78), 18);
-        assert.equal(calculateNumber(0, 2.1), 1);
+        assert.equal(calculateNumber(0, 1.2), 1);
         assert.equal(calculateNumber(2, 3.5), 6);
     });
 
